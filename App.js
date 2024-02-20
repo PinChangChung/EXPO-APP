@@ -14,8 +14,19 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#FFF9C1',
     alignItems: 'center',
     justifyContent: 'center',
   },
+
+  font:{
+    fontSize: 40,
+  },
+  
+  title:{
+    fontSize: 50,
+    fontWeight: "bold",
+    marginBottom: 10,
+  },
 });
+
